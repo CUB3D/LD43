@@ -1,0 +1,26 @@
+{
+  "Tag": "Player",
+  "Size": {
+    "Width": 2,
+    "Height": 2
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/Player.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "DynamicBody",
+        "FixedRotation": true
+      },
+      "FixtureDefinition": {
+        "Friction": 0.4
+      },
+      "MaxSpeed": {
+        "X": 9,
+        "Y": 10
+      }
+    }
+  }
+}

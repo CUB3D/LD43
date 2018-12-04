@@ -1,0 +1,25 @@
+{
+  "Tag": "Lamp",
+  "Size": {
+    "Width": 1,
+    "Height": 4
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/Lamp.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      },
+      "FixtureDefinition": {
+        "isSensor": true
+      }
+    },
+    "EventTriggerComponent": {
+
+    }
+  }
+}

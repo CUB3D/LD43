@@ -1,0 +1,15 @@
+{
+  "Tag": "Ground",
+  "Size": {
+    "Width": 2000,
+    "Height": 2
+  },
+  "Components": {
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      }
+    }
+  }
+}

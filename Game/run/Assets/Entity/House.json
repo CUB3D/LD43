@@ -1,0 +1,22 @@
+{
+  "Tag": "House",
+  "Size": {
+    "Width": 4,
+    "Height": 4
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/House.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      }
+    },
+    "HouseComponent": {
+
+    }
+  }
+}

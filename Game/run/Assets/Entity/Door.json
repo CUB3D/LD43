@@ -1,0 +1,25 @@
+{
+  "Tag": "Door",
+  "Size": {
+    "Width": 8,
+    "Height": 16
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/Door.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      },
+      "FixtureDefinition": {
+        "isSensor": true
+      }
+    },
+    "EventTriggerComponent": {
+
+    }
+  }
+}

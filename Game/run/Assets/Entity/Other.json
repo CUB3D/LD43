@@ -1,0 +1,26 @@
+{
+  "Tag": "Other",
+  "Size": {
+    "Width": 2,
+    "Height": 2
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/Other.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      },
+      "FixtureDefinition": {
+        "Friction": 0.8
+      },
+      "MaxSpeed": {
+        "X": 9,
+        "Y": 10
+      }
+    }
+  }
+}

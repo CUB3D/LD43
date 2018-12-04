@@ -1,0 +1,25 @@
+{
+  "Tag": "Stair",
+  "Size": {
+    "Width": 32,
+    "Height": 48
+  },
+  "Components": {
+    "ImageRenderComponent": {
+      "Image": "Assets/Stair.png",
+      "RenderScale": 16
+    },
+    "PhysicsBodyComponent": {
+      "BodyDefinition": {
+        "Type": "StaticBody",
+        "FixedRotation": true
+      },
+      "FixtureDefinition": {
+        "isSensor": true
+      }
+    },
+    "EventTriggerComponent": {
+
+    }
+  }
+}

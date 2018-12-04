@@ -1,0 +1,9 @@
+{
+  "TargetWidth":1280,
+  "TargetHeight":760,
+  "Title":"Test - Conways games of life",
+  "TargetUPS":60,
+  "MSAA": true,
+  "VSync": 0,
+  "RendererMode": 0
+}
